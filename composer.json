@@ -1,0 +1,23 @@
+{
+    "name": "lhh/redis_watch",
+    "description": "This is a simple redis monitor.",
+    "authors": [
+        {
+            "name": "lhh",
+            "email": "happy20xy@163.com"
+        }
+    ],
+    "require": {},
+    "autoload" : {
+      "files" : [
+        "conf/conf.php",
+        "lib/function.php"
+      ],
+      "classmap": [
+        "lib"
+      ],
+      "psr4":{
+
+      }
+    }
+}
